@@ -3,6 +3,8 @@
 function slidesPlugin(activeSlide = 0) {
 	const slides = document.querySelectorAll(".slide");
 
+	slides[activeSlide].classList.add("active");
+
 	for (const slide of slides) {
 		slide.addEventListener("click", () => {
 			clearActiveSlides();
@@ -17,4 +19,4 @@ function slidesPlugin(activeSlide = 0) {
 	}
 }
 
-slidesPlugin(3);
+slidesPlugin(2);
