@@ -41,6 +41,13 @@ body {
 	font-size: 40px;
 	margin-bottom: 10px;
 	margin-top: -30px;
+	padding: 0 50px;
+	text-align: center;
+}
+
+.sidebar p {
+	padding: 0 50px;
+	text-align: center;
 }
 
 .main-slide {
