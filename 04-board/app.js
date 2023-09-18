@@ -1,7 +1,17 @@
 "use strict";
 
 const board = document.getElementById("board");
-const colors = ["#e74c3c", "#8e44ad", "#3498db", "#e67e22", "#2ecc71"];
+const colors = [
+	"#E53D23",
+	"#0033A0",
+	"#A4BD31",
+	"#FF5A1F",
+	"#D62598",
+	"#6B727A",
+	"#667885",
+	"#8B6F4E",
+];
+
 const SQUARES_NUMBER = 500;
 
 for (let i = 0; i < SQUARES_NUMBER; i++) {
